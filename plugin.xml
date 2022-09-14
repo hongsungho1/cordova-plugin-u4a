@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="com.u4a.hello"
+        version="0.7.0">
+
+  <name>Hello</name>
+
+  <engines>
+    <engine name="cordova" version=">=3.4.0"/>
+  </engines>
+
+  <asset src="www/u4a.js" target="js/u4a.js"/>
+
+  <js-module src="www/u4a.js" name="u4a">
+    <clobbers target="u4a" />
+  </js-module>
+
+  <platform name="android">
+
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="u4a">
+        <param name="android-package" value="com.plugin.u4a"/>
+      </feature>
+    </config-file>
+
+    <source-file src="src/android/u4a.java" target-dir="src/com/example/plugin/"/>
+  </platform>
+
+</plugin>

@@ -1,0 +1,30 @@
+{
+  "name": "cordova-plugin-u4a",
+  "version": "0.0.1",
+  "description": "A sample for a new cordova plugin",
+  "cordova": {
+    "id": "cordova-plugin-u4a",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hongsungho1/cordova-plugin-u4a.git"
+  },  
+  
+  "keywords": [
+    "cordova",
+    "plugin",
+    "u4a",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "shhong",
+  "license": "Apache-2",
+  "bugs": {
+    "url": "https://github.com/hongsungho1/cordova-plugin-u4a/issues"
+  },
+  "homepage": "https://github.com/hongsungho1/cordova-plugin-u4a#readme"  
+  
+}
